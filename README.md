@@ -48,7 +48,7 @@ Ubuntu 24.04 with [ROS 2 Jazzy](https://docs.ros.org/en/jazzy/Installation.html)
 sudo apt install ros-jazzy-ur ros-jazzy-ur-simulation-gz ros-jazzy-ros2-controllers
 
 # the launch files use ~/ur5e_pp_ws, so clone it there
-git clone https://github.com/<your-username>/ur5e-energy-optimal-control.git ~/ur5e_pp_ws
+git clone https://github.com/Ahmed-Hammoda/ur5e-energy-optimal-control.git ~/ur5e_pp_ws
 cd ~/ur5e_pp_ws
 source /opt/ros/jazzy/setup.bash
 colcon build --symlink-install
