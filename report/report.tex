@@ -61,8 +61,8 @@
 \setlength{\headheight}{15pt}
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{ECE431 - Robotics Engineering}
-\fancyhead[R]{Robotics Homework Report}
+\fancyhead[L]{Energy-Optimal Control of the UR5e}
+\fancyhead[R]{Project Report}
 \fancyfoot[C]{\thepage}
 
 % Flowchart styles
@@ -86,28 +86,22 @@
 \begin{titlepage}
 \centering
 
-\vspace*{2cm}
-\vspace{2.5cm}
-{\LARGE \textbf{Robotics Homework Report}}\\[0.3cm]
-{\large Course Code: ECE431}\\[0.3cm]
-{\large \textbf{Energy-Optimal Control of the UR5e for Soda-Can Packing}}\\
+\vspace*{4cm}
+{\LARGE \textbf{Energy-Optimal Control of the UR5e\\[0.2cm] for Soda-Can Packing}}\\[0.6cm]
+{\large Project Report}\\
 
-\vspace{2.5cm}
-{\Large \textbf{Submitted By:}}\\[0.2cm]
+\vspace{3cm}
+{\Large \textbf{Authors}}\\[0.3cm]
 {\large Ahmed Hamouda}\\[0.1cm]
 {\large Zainab Almagbari}\\
 
-\vspace{1.5cm}
-{\Large \textbf{Submitted To:}}\\[0.2cm]
-{\large Prof. Mohamed Sahbi Bellamine}\\
-
 \vfill
-{\large \textbf{Date:} November 2026}
+{\large November 2026}
 \end{titlepage}
 
 \section{Project flowchart}
 
-A UR5e packs soda cans from a conveyor into a $3\times4$ carton in a Gazebo and ROS~2 simulation, at a fixed rhythm of one can every 22~s. Figure~\ref{fig:flow} is the flowchart from class, adapted to what the project did. The green boxes changed: the existing controllers tested are the ones in the UR5e ROS~2 stack, an energy metric step was added, and the comparison uses energy instead of tracking error.
+A UR5e packs soda cans from a conveyor into a $3\times4$ carton in a Gazebo and ROS~2 simulation, at a fixed rhythm of one can every 22~s. Figure~\ref{fig:flow} is the project flowchart. The green boxes are the steps this project adds: the existing controllers tested are the ones in the UR5e ROS~2 stack, an energy metric step was added, and the comparison uses energy instead of tracking error.
 
 \begin{figure}[H]
 \centering
@@ -145,7 +139,7 @@ A UR5e packs soda cans from a conveyor into a $3\times4$ carton in a Gazebo and 
 \draw[flow] (cmp.west) -- node[flabel, below, align=center] {saves\\$<20\,\%$} ++(-1.0,0) |- (design.west);
 \draw[flow] (cmp) -- node[flabel, right] {saves $\geq 20\,\%$} (res);
 \end{tikzpicture}
-\caption{Project flowchart. Green: steps changed from the class version.}
+\caption{Project flowchart. Green: the steps this project adds.}
 \label{fig:flow}
 \end{figure}
 
