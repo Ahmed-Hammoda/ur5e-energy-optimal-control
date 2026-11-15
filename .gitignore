@@ -1,0 +1,24 @@
+# colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# editors
+.vscode/
+
+# live demo runs and plain logs (the repo keeps the compressed .csv.xz)
+results/demo/
+results/**/*.csv
+
+# LaTeX build files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.fls
+report/*.fdb_latexmk
+report/*.synctex.gz

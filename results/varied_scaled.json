@@ -1,0 +1,255 @@
+{
+  "mode": "scaled",
+  "controller": "scaled_joint_trajectory_controller",
+  "tag": "varied_scaled",
+  "end_reason": "done",
+  "cycles_requested": 30,
+  "speed": 0.2,
+  "start_offset_mm": 5.0,
+  "payload_kg": 1.0,
+  "dt": 0.01,
+  "ref_cycle_time_s": 12.280000000000001,
+  "cycles": [
+    {
+      "cycle": 1,
+      "cycle_time_s": 12.277999999999999,
+      "max_tcp_err_mm": 4.018022023423323,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 2,
+      "cycle_time_s": 12.277999999999999,
+      "max_tcp_err_mm": 4.0036427748800625,
+      "placement_err_mm": 0.0011893211708801509,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 3,
+      "cycle_time_s": 12.277999999999995,
+      "max_tcp_err_mm": 4.0745177507967325,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 4,
+      "cycle_time_s": 12.277999999999999,
+      "max_tcp_err_mm": 4.014928818926779,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 5,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.0397086338175985,
+      "placement_err_mm": 0.0011711094521954454,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 6,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.0080184047408105,
+      "placement_err_mm": 0.0011769060148816262,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 7,
+      "cycle_time_s": 12.278000000000006,
+      "max_tcp_err_mm": 4.1730350461774925,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 8,
+      "cycle_time_s": 12.280000000000001,
+      "max_tcp_err_mm": 4.125481817396974,
+      "placement_err_mm": 0.0011776286943497077,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 9,
+      "cycle_time_s": 12.276999999999987,
+      "max_tcp_err_mm": 4.255336392649418,
+      "placement_err_mm": 0.0011651138655537194,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 10,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.184860766428828,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 11,
+      "cycle_time_s": 12.278999999999996,
+      "max_tcp_err_mm": 4.340546002824467,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 12,
+      "cycle_time_s": 12.277000000000015,
+      "max_tcp_err_mm": 4.545317620517721,
+      "placement_err_mm": 0.001167896850384768,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 13,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.297140968527248,
+      "placement_err_mm": 0.0011773144365980943,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 14,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.11822186984459,
+      "placement_err_mm": 0.0011924763883939568,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 15,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.362521937141942,
+      "placement_err_mm": 0.001191353501680171,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 16,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.0177886288564695,
+      "placement_err_mm": 0.001197512988798193,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 17,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 4.0837552772309,
+      "placement_err_mm": 0.0011855641172834731,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 18,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.025126440316399,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 19,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.004911359588614,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 20,
+      "cycle_time_s": 12.277999999999992,
+      "max_tcp_err_mm": 4.012070369358158,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 21,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 4.006586611722218,
+      "placement_err_mm": 0.0011759831943466993,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 22,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 4.021724791392541,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 23,
+      "cycle_time_s": 12.27800000000002,
+      "max_tcp_err_mm": 4.02653195662984,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 24,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 4.022308467761328,
+      "placement_err_mm": 0.0011827497636805388,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 25,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 3.989762129045992,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 26,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 3.9897624059287464,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 27,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 3.9956073149082463,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 28,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 4.011859398057874,
+      "placement_err_mm": 0.0011893211708801509,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 29,
+      "cycle_time_s": 12.277999999999963,
+      "max_tcp_err_mm": 4.000813886347134,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    },
+    {
+      "cycle": 30,
+      "cycle_time_s": 12.27800000000002,
+      "max_tcp_err_mm": 4.015330347668122,
+      "placement_err_mm": 0.0011800732631043393,
+      "settled": true,
+      "fault": false
+    }
+  ],
+  "wall_time": "2026-11-03 20:02:53"
+}
