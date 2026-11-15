@@ -36,7 +36,7 @@ Can-packing line, measured in Gazebo (cycle 1 not counted):
 | Max tool error | 3.0 mm | 4.0 mm | within limits |
 | Faults | none | none | |
 
-Full tables: [`results/cans/validation/summary.md`](results/cans/validation/summary.md). The first test of the two existing controllers on a simpler box task is in [`results/validation/summary.md`](results/validation/summary.md). The full write-up is in [`report/report.pdf`](report/report.pdf).
+Full tables: [`results/cans/validation/summary.md`](results/cans/validation/summary.md). The full write-up is in [`report/report.pdf`](report/report.pdf).
 
 Gazebo's joint torques were checked against the gravity model built from the official UR5e mass data (within 0.07 N·m rms).
 
@@ -76,7 +76,6 @@ Add `style:=video` for the large monitor shown above.
 **Recompute the energy tables** from the recorded logs:
 ```bash
 ros2 run ur5e_pp_control validate --dir ~/ur5e_pp_ws/results/cans
-ros2 run ur5e_pp_control validate                     # box-task runs
 ```
 The raw logs (q, q̇, τ and tool position at 100 Hz) are stored as `.csv.xz`. The tools read them directly; `unxz -k <file>` gives the plain CSV.
 
@@ -103,7 +102,7 @@ src/ur5e_pp_control/
 ├── worlds/                box cell and can-packing cell
 ├── config/controllers.yaml
 └── scripts/               run_tests.sh, record_video.sh
-results/                   recorded runs (.json + .csv.xz) and validation tables/figures
+results/cans/              recorded before/after runs (.json + .csv.xz), learned paths, tables and figures
 report/                    report (PDF + LaTeX)
 ```
 
